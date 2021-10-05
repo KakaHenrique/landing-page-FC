@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href = "css/style.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+        <div class = "menu">
+          <div class = "menu-logo">
+            <img src = "img/logo.png">
+          </div><!--menu-logo-->
+          <nav class = "menu-nav">
+            <ul>
+              <li><a href = "#boasvindas">boas vindas</a></li>
+              <li><a href = "#orientacoes">orientações</a></li>
+              <li><a href = "#duvidas">dúvidas</a></li>
+              <li><a href = "#contato">contato</a></li>
+            </ul>
+          </nav><!--menu-nav-->
+        </div><!--menu-->
+  </header>
+
+  <section class = "bem-vindos" id = "boasvindas">
+    <div class = "container">
+      <h1>bem vindos de volta, consultores!</h1>
+      <p>Nós da FCamara estamos muito contentes em receber todos vocês novamente! Abaixo iremos esclarecer algumas dúvidas e fornecer orientações, para que voltem com segurança aos nossos escritórios</p>
+    </div><!--container-->
+  </section><!--bem-vindos-->
+
+  <section class = "orientacoes" id = "orientacoes">
+    <div class = "container">
+      <h1>orientações</h1>
+      <ul class = "orientacoes-fc">
+        <li>O retorno é feito através de um sistema de agendamento.</li>
+        <li>Os nossos escritórios irão comportar 40% dos consultores.</li>
+        <li>Todos os consultores deverão utilizar máscaras dentro do escritório.</li>
+        <li>Os adesivos dentro do escritório, é para marcar assentos, para que haja distânciamento.</li>
+        <li>Será medida a temperatura ao chegar no escritório.</li>
+      </ul>
+    </div><!--container-->
+  </section><!--orientacoes-->
+
+  <section class = "principais-duvidas" id = "duvidas">
+    <div class = "container">
+      <h1>principais dúvidas</h1>
+      <div class = "duvidas">
+
+        <div class = "duvida-one">
+          <h3>Tenho que voltar para o escritório?  <span><img src = "icons/icon-seta.png" onclick="exibirConteudo1()"></span></h3>
+          <p class = "paragrafo1">Não! Caso você ainda não se sinta seguro, pode continuar trabalhando da sua casa. Nós da FCamara, prezamos pela sua segurança!</p>
+        </div><!--duvida-one-->
+
+        <div class = "duvida-two">
+          <h3>Em caso de sintomas, o que eu faço? <span><img src = "icons/icon-seta.png" onclick="exibirConteudo2()"></span></h3>
+          <p class = "paragrafo2">Em caso de qualquer tipo de sintomas, fique em casa.</p>
+        </div><!--duvida-two-->
+
+        <div class = "duvida-three">
+          <h3>Quais escritórios vão ser reabertos?  <span><img src = "icons/icon-seta.png"onclick = "exibirConteudo3()"></span></h3>
+          <p class = "paragrafo3">Os escritórios de São Paulo(principal) e o escritório de Santos(filial).</p>
+        </div><!--duvida-three-->
+
+        <div class = "duvida-four">
+          <h3>Qual o horário de funcionamento? <span><img src = "icons/icon-seta.png"onclick = "exibirConteudo4()"></span></h3>
+          <p class = "paragrafo4">8:00 ás 18:00</p>
+        </div><!--duvida-four-->
+      </div><!--duvidas-->
+    </div><!--container-->
+  </section><!--principais-duvidas-->
+
+
+  <section class = "contato" id = "contato">
+    <div class = "container">
+      <h1>contato</h1>
+      <form>
+        <input type = "text" name = "nome" placeholder="Digite seu Nome">
+
+        <input type = "email" name = "email" placeholder="Digite seu Email">
+
+        <input type = "text" name = "telefone" placeholder="Digite seu telefone">
+
+        <textarea placeholder="Digite sua dúvida"></textarea>
+        
+        <div class ="btn">
+          <input type = "submit" name = "acao" value = "Enviar">
+        </div><!--btn-->
+      </form>
+    </div><!--container-->
+  </section><!--contato-->
+
+  <footer>
+    <div class = "container">
+      <p>Nossa localização</p>
+      <p>Rua Bela Cintra, 928 - 2° Andar - São Paulo</p>
+      <p>Praça dos Expedicionários, 19 - 2° Andar - Gonzaga, Santos - SP</p>
+    </div><!--container-->
+  </footer>
+  <script src = "js/script.js"></script>
+</body>
+</html>
