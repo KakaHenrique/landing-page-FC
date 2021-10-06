@@ -1,6 +1,5 @@
 function exibirConteudo1(){
   let paragrafoUm = document.querySelector(".paragrafo1");
-
   if(paragrafoUm.classList.contains("respostaAtiva")){
     paragrafoUm.classList.remove("respostaAtiva");
   }else{
@@ -10,7 +9,6 @@ function exibirConteudo1(){
 
 function exibirConteudo2(){
   let paragrafoDois = document.querySelector(".paragrafo2");
-
   if(paragrafoDois.classList.contains("respostaAtiva")){
     paragrafoDois.classList.remove("respostaAtiva");
   }else{
@@ -20,7 +18,6 @@ function exibirConteudo2(){
 
 function exibirConteudo3(){
   let paragrafoTres = document.querySelector(".paragrafo3");
-
   if(paragrafoTres.classList.contains("respostaAtiva")){
     paragrafoTres.classList.remove("respostaAtiva");
   }else{
