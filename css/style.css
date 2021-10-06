@@ -204,6 +204,7 @@ input[type = "text"]{
   border: 1px solid black;
   margin-top: 30px;
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
 input[type = "email"]{
@@ -214,6 +215,7 @@ input[type = "email"]{
   border: 1px solid black;
   margin-top: 30px;
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
 .btn{
@@ -246,8 +248,17 @@ textarea{
   border: 1px solid black;
   padding: 10px;
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
+h1:after{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #FE4400;
+  margin: 5px auto;
+}
 /* footer */
 
 footer{
@@ -262,6 +273,7 @@ footer p {
   font-size: 1.15rem;
   font-weight: bold;
 }
+
 @media screen and (max-width: 900px){
   .menu{
     flex-direction: column;
